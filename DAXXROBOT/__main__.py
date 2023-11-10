@@ -427,7 +427,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                             text="🏡 sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
                         ),
                         InlineKeyboardButton(
-                            text="ᴜᴩᴅᴀᴛᴇs 🍷"68747470733A2F2F742E6D652F414C4C545950454343"
+                            text="ᴜᴩᴅᴀᴛᴇs 🍷"https://t.me/ALLTYPECC"
                         ),
                     ],
                     [
@@ -435,7 +435,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                             text="🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id={OWNER_ID}"
                         ),
                         InlineKeyboardButton(
-                            text="ɢɪᴛʜᴜʙ 🍹"68747470733A2F2F6769746875622E636F6D2F444158585445414D"
+                            text="ɢɪᴛʜᴜʙ 🍹"https://github.com/DAXXTEAM"
                         ),
                     ],
                     [
