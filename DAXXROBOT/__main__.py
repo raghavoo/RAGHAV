@@ -478,8 +478,7 @@ def DAXXROBOT_Main_Callback(update: Update, context: CallbackContext):
             ),
         )
     elif query.data=="basic_help":
-        query.message.edit_caption("""CC Cʜᴇᴄᴋᴇʀ Cᴏᴍᴍᴀɴᴅs
- 🛠️ CC Cʜᴇᴄᴋᴇʀ Tᴏᴏʟs 🛠️
+        query.message.edit_caption("""🛠️ CC Cʜᴇᴄᴋᴇʀ Tᴏᴏʟs 🛠️
 ╔═════════════════╗
 ├𝑼𝒔𝒆𝒓𝒔 𝑰𝒏𝒇𝒐 » /id
 ├𝑼𝒔𝒂𝒈𝒆 » /id
