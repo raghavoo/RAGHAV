@@ -467,7 +467,7 @@ def DAXXROBOT_Main_Callback(update: Update, context: CallbackContext):
                     ],
                     [
                         InlineKeyboardButton(text="💁 CC Cʜᴇᴄᴋᴇʀ Tᴏᴏʟs ", callback_data="basic_help"),
-                        InlineKeyboardButton(text="Exᴘᴇʀᴛ 👮", callback_data="expert_help")
+                        InlineKeyboardButton(text="SM Dᴏᴡɴʟᴏᴅᴇʀ 📱", callback_data="expert_help")
                     ],
                     [
                         InlineKeyboardButton(text="🍹 Aᴅᴠᴀɴᴄᴇ", callback_data="advance_help"),
