@@ -62,12 +62,6 @@
         "required": false,
         "value": ""
     },
-    "CHATBOT_API": {
-        "description":"Get your API key from @FallenChat_Bot using /token",
-        "required": false,
-        "value": ""
-    },
-        
     "OWNER_ID": {
        "description": "Your user ID as an integer.",
        "required": true,
