@@ -209,7 +209,7 @@ def start(update: Update, context: CallbackContext):
             first_name = update.effective_user.first_name
             
             x=update.effective_message.reply_sticker(
-                "CAACAgUAAxkBAAI33mLYLNLilbRI-sKAAob0P7koTEJNAAIOBAACl42QVKnra4sdzC_uKQQ")
+                "CAACAgUAAx0Ca3d0mwABAnr-ZU5YLsGsaa41kQo0XpBLuyCeu7MAAhoIAAL6yEBXFfvJsHY5e9QzBA")
             x.delete()
             usr = update.effective_user
             lol = update.effective_message.reply_text(
@@ -1018,7 +1018,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 5935608297:
+        if OWNER_ID != 6691393517:
             update.effective_message.reply_text(
                 f"» ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴩᴇʀ ᴏғ {dispatcher.bot.first_name} sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs [ɢɪᴛʜᴜʙ](https://github.com/noob-mukesh/DAXXROBOT)"
                 f"\n\nʙᴜᴛ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴅᴏɴᴀᴛᴇ ᴛᴏ ᴛʜᴇ ᴩᴇʀsᴏɴ ᴄᴜʀʀᴇɴᴛʟʏ ʀᴜɴɴɪɴɢ ᴍᴇ : [ʜᴇʀᴇ]({DONATE_STRING})",
@@ -1083,7 +1083,7 @@ def main():
                 caption=f"""
 ✨ㅤ{BOT_NAME} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ.
 ━━━━━━━━━━━━━
-**ᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ʙʏ 𝐌ᴜᴋᴇsʜ**
+**ᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ʙʏ 𝐌𝚁°᭄𝐃𝙰𝚇𝚇 ࿐™**
 **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ:** `{y()}`
 **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ:** `{telever}`
 **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ:** `{tlhver}`
