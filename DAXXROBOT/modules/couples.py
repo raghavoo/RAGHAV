@@ -71,7 +71,7 @@ async def ctest(_, message):
          img1 = Image.open(f"{p1}")
          img2 = Image.open(f"{p2}")
 
-         img = Image.open("DazaiRobot/resources/couples.png")
+         img = Image.open("DAXXROBOT/resources/Couples.png")
 
          img1 = img1.resize((360,360))
          img2 = img2.resize((360,360))
