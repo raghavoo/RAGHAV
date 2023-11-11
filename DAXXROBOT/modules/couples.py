@@ -62,11 +62,11 @@ async def ctest(_, message):
          try:
             p1 = await app.download_media(photo1.big_file_id, file_name="pfp.png")
          except Exception:
-            p1 = "DAXXROBOT/resources/couples.png"
+            p1 = "DAXXROBOT/resources/Couples.png"
          try:
             p2 = await app.download_media(photo2.big_file_id, file_name="pfp1.png")
          except Exception:
-            p2 = "DAXXROBOT/resources/couples.png"
+            p2 = "DAXXROBOT/resources/Couples.png"
             
          img1 = Image.open(f"{p1}")
          img2 = Image.open(f"{p2}")
