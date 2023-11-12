@@ -1,6 +1,6 @@
-from DAXXROBOT.modules.no_sql import Dilwardb
+from DAXXROBOT.modules.no_sql import Mukeshdb
 
-afkdb = Dilwardb.afk
+afkdb = Mukeshdb.afk
 
 
 async def is_afk(user_id: int) -> bool:
