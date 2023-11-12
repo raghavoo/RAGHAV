@@ -90,8 +90,8 @@ async def ctest(_, message):
 
          draw = ImageDraw.Draw(img)
 
-         img.paste(img1, (434, 220), img1)
-         img.paste(img2, (994, 220), img2)
+         img.paste(img1, (434, 222), img1)
+         img.paste(img2, (994, 222), img2)
 
          img.save(f'test_{cid}.png')
     
