@@ -33,12 +33,12 @@ import time
 from pyrogram import filters
 from pyrogram.types import Message
 
-from DAXXROBOT import DAXX
+from DAXXROBOT import pbot
 from DAXXROBOT.modules.helper_funcs.readable_time import get_readable_time
 from DAXXROBOT.modules.no_sql.afk_db import add_afk, is_afk, remove_afk
 
 
-@DAXXROBOT.on_message(filters.command(["afk", "brb"]))
+@pbot.on_message(filters.command(["afk", "brb"]))
 async def active_afk(_, message: Message):
     if message.sender_chat:
         return
@@ -123,7 +123,7 @@ async def active_afk(_, message: Message):
             "reason": _reason,
         }
     elif len(message.command) == 1 and message.reply_to_message.photo:
-        await DAXXROBOT.download_media(
+        await pbot.download_media(
             message.reply_to_message, file_name=f"{user_id}.jpg"
         )
         details = {
@@ -133,7 +133,7 @@ async def active_afk(_, message: Message):
             "reason": None,
         }
     elif len(message.command) > 1 and message.reply_to_message.photo:
-        await DAXXROBOT.download_media(
+        await pbot.download_media(
             message.reply_to_message, file_name=f"{user_id}.jpg"
         )
         _reason = message.text.split(None, 1)[1].strip()
@@ -152,7 +152,7 @@ async def active_afk(_, message: Message):
                 "reason": None,
             }
         else:
-            await DAXXROBOT.download_media(
+            await pbot.download_media(
                 message.reply_to_message, file_name=f"{user_id}.jpg"
             )
             details = {
@@ -171,7 +171,7 @@ async def active_afk(_, message: Message):
                 "reason": _reason,
             }
         else:
-            await DAXXROBOT.download_media(
+            await pbot.download_media(
                 message.reply_to_message, file_name=f"{user_id}.jpg"
             )
             details = {
@@ -201,7 +201,7 @@ __mod_name__ = "𝐀ғᴋ"
 # ғᴏʀ ʜᴇʟᴘ ᴍᴇɴᴜ
 
 # """
-from DAXX.modules.language import gs
+from pbot.modules.language import gs
 
 
 def get_help(chat):
