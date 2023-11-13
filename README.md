@@ -14,4 +14,4 @@
 
 
 
-[CREDIT](https://t.me/iTzmStbOy)
+[CREDIT])
