@@ -17,7 +17,7 @@ PHOTO = [
     "https://telegra.ph/file/bdfd86195221e979e6b20.jpg",
 ]
 
-DAXX = [
+Mukesh = [
     [
         InlineKeyboardButton(text="ɴᴏᴏʙ", user_id=OWNER_ID),
         InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
@@ -64,5 +64,5 @@ async def restart(client, m: Message):
   
   » **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{pyver()}`
    ━━━━━━━━━━━━━━━━━━━""",
-        reply_markup=InlineKeyboardMarkup(DAXX),
+        reply_markup=InlineKeyboardMarkup(Mukesh),
     )
