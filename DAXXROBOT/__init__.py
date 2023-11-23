@@ -31,35 +31,35 @@ if sys.version_info[0] < 3 or sys.version_info[1] < 6:
     )
     quit(1)
 
-ENV = bool(os.environ.get("ENV", False))
+ENV = bool(os.environ.get("ENV", "True"))
 
 if ENV:
 
-    API_ID = int(os.environ.get("API_ID", None))
-    API_HASH = os.environ.get("API_HASH", None)
-    CHATBOT_API = os.environ.get("CHATBOT_API", None)
+    API_ID = int(os.environ.get("API_ID", "16051908"))
+    API_HASH = os.environ.get("API_HASH", "abf9b83f9ca40cf9f5ba9bf6e6afaa8b")
+    CHATBOT_API = os.environ.get("CHATBOT_API", "CsiP0JVGBJEoAEQu")
     ALLOW_CHATS = os.environ.get("ALLOW_CHATS", True)
     ALLOW_EXCL = os.environ.get("ALLOW_EXCL", False)
-    CASH_API_KEY = os.environ.get("CASH_API_KEY", None)
-    DB_URI = os.environ.get("DATABASE_URL")
+    CASH_API_KEY = os.environ.get("CASH_API_KEY", "V3GINZ5GSBYKPMF1")
+    DB_URI = os.environ.get("DATABASE_URL", "postgres://ovkhfxkp:d6SvqcZmnYmhLQBqGVmt9AMyB0DzqXPS@isilo.db.elephantsql.com/ovkhfxkp")
     DEL_CMDS = bool(os.environ.get("DEL_CMDS", False))
-    EVENT_LOGS = os.environ.get("EVENT_LOGS", None)
+    EVENT_LOGS = os.environ.get("EVENT_LOGS", "-1001954221487")
     INFOPIC = bool(os.environ.get("INFOPIC", "True"))
     LOAD = os.environ.get("LOAD", "").split()
-    MONGO_DB_URI = os.environ.get("MONGO_DB_URI", None)
+    MONGO_DB_URI = os.environ.get("MONGO_DB_URI", "mongodb+srv://starxrobo:starxrobo@cluster0.efstcnr.mongodb.net/?retryWrites=true&w=majority")
     NO_LOAD = os.environ.get("NO_LOAD", "").split()
     START_IMG = os.environ.get(
-        "START_IMG", ""
+        "START_IMG", "https://graph.org/file/c3cf5ca2ab9a041a22673.jpg"
     )
     STRICT_GBAN = bool(os.environ.get("STRICT_GBAN", True))
-    SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "worldwide_friend_zone")
+    SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "DabangTheBrand")
     TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TEMP_DOWNLOAD_DIRECTORY", "./")
     TOKEN = os.environ.get("TOKEN", None)
-    TIME_API_KEY = os.environ.get("TIME_API_KEY", None)
+    TIME_API_KEY = os.environ.get("TIME_API_KEY", "G1VE375UCXVX")
     WORKERS = int(os.environ.get("WORKERS", 8))
 
     try:
-        OWNER_ID = int(os.environ.get("OWNER_ID", None))
+        OWNER_ID = int(os.environ.get("OWNER_ID", "5999224089"))
     except ValueError:
         raise Exception("Your OWNER_ID env variable is not a valid integer.")
 
@@ -69,23 +69,23 @@ if ENV:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
     try:
-        DRAGONS = set(int(x) for x in os.environ.get("DRAGONS", "").split())
-        DEV_USERS = set(int(x) for x in os.environ.get("DEV_USERS", "2145093972").split())
+        DRAGONS = set(int(x) for x in os.environ.get("DRAGONS", "6144223366").split())
+        DEV_USERS = set(int(x) for x in os.environ.get("DEV_USERS", "6144223366").split())
     except ValueError:
         raise Exception("Your sudo or dev users list does not contain valid integers.")
 
     try:
-        DEMONS = set(int(x) for x in os.environ.get("DEMONS", "").split())
+        DEMONS = set(int(x) for x in os.environ.get("DEMONS", "6144223366").split())
     except ValueError:
         raise Exception("Your support users list does not contain valid integers.")
 
     try:
-        TIGERS = set(int(x) for x in os.environ.get("TIGERS", "").split())
+        TIGERS = set(int(x) for x in os.environ.get("TIGERS", "6144223366").split())
     except ValueError:
         raise Exception("Your tiger users list does not contain valid integers.")
 
     try:
-        WOLVES = set(int(x) for x in os.environ.get("WOLVES", "").split())
+        WOLVES = set(int(x) for x in os.environ.get("WOLVES", "6144223366").split())
     except ValueError:
         raise Exception("Your whitelisted users list does not contain valid integers.")
 
