@@ -8,7 +8,7 @@
        "group",
        "manager"
     ],   
- "repository": "https://github.com/DAXXTEAM/YumikooRobot",
+ "repository": "https://github.com/onenonlybotz/Dabang",
  "stack": "heroku-22",
  "addons": [
     {
