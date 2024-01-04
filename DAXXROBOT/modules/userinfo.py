@@ -285,7 +285,7 @@ def info(update: Update, context: CallbackContext):
         disaster_level_present = True
 
     if disaster_level_present:
-        text += ' \n[<a href="https://t.me/HEROKUFREECC">ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴋɴᴏᴡ ᴡʜᴀᴛ ɪs ᴅɪsᴀsᴛᴇʀ ʟᴇᴠᴇʟs.</a>]'.format(
+        text += ' \n[<a href="https://t.me/DabangTheBrand">ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴋɴᴏᴡ ᴡʜᴀᴛ ɪs ᴅɪsᴀsᴛᴇʀ ʟᴇᴠᴇʟs.</a>]'.format(
             bot.username
         )
 
@@ -323,10 +323,10 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "ʜᴇᴀʟᴛʜ", url=f"https://t.me/HEROKUFREECC"
+                                "ʜᴇᴀʟᴛʜ", url=f"https://t.me/DabangTheBrand"
                             ),
                             InlineKeyboardButton(
-                                "Dɪsᴀsᴛᴇʀ", url="https://t.me/HEROKUFREECC"
+                                "Dɪsᴀsᴛᴇʀ", url="https://t.me/DabangTheBrand"
                             ),
                         ],
                         [
