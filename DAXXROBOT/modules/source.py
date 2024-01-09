@@ -9,7 +9,7 @@ from telethon import __version__ as s
 from DAXXROBOT import OWNER_ID, dispatcher
 from DAXXROBOT import pbot as client
 
-DAXX = "https://graph.org/file/22f4ce50778692e31a3b8.jpg"
+DAXX = "https://te.legra.ph/file/612122f0681220f8a49f4.jpg"
 
 
 @client.on_message(filters.command(["repo", "source"]))
@@ -34,7 +34,7 @@ async def repo(client, message):
                     ),
                     InlineKeyboardButton(
                         "• ʀᴇᴘᴏ •",
-                        url="https://t.me/whoisaaditya",
+                        url="https://t.me/raghavsupport",
                     ),
                 ]
             ]
