@@ -10,13 +10,13 @@ from telethon import __version__ as tver
 from DAXXROBOT import SUPPORT_CHAT, pbot,BOT_USERNAME, OWNER_ID,BOT_NAME,START_IMG
 
 PHOTO = [
-    "https://graph.org/file/c3cf5ca2ab9a041a22673.jpg"
+    "https://te.legra.ph/file/612122f0681220f8a49f4.jpg"
 ]
 
 Mukesh = [
     [
         InlineKeyboardButton(text="ᴏᴡɴᴇʀ", user_id=OWNER_ID),
-        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/DabangTheBrand"),
+        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/raghavsupport"),
     ],
     [
         InlineKeyboardButton(
