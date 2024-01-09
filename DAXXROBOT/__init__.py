@@ -35,31 +35,31 @@ ENV = bool(os.environ.get("ENV", "True"))
 
 if ENV:
 
-    API_ID = int(os.environ.get("API_ID", "16051908"))
-    API_HASH = os.environ.get("API_HASH", "abf9b83f9ca40cf9f5ba9bf6e6afaa8b")
+    API_ID = int(os.environ.get("API_ID", "28216960"))
+    API_HASH = os.environ.get("API_HASH", "16cd70578949eefbec1655e206f14fcf")
     CHATBOT_API = os.environ.get("CHATBOT_API", None)
     ALLOW_CHATS = os.environ.get("ALLOW_CHATS", True)
     ALLOW_EXCL = os.environ.get("ALLOW_EXCL", False)
-    CASH_API_KEY = os.environ.get("CASH_API_KEY", "V3GINZ5GSBYKPMF1")
+    CASH_API_KEY = os.environ.get("CASH_API_KEY", "D31QL4STIWPSLALL")
     DB_URI = os.environ.get("DATABASE_URL", "postgres://ovkhfxkp:d6SvqcZmnYmhLQBqGVmt9AMyB0DzqXPS@isilo.db.elephantsql.com/ovkhfxkp")
     DEL_CMDS = bool(os.environ.get("DEL_CMDS", False))
-    EVENT_LOGS = os.environ.get("EVENT_LOGS", "-1001954221487")
+    EVENT_LOGS = os.environ.get("EVENT_LOGS", "-1002004616638")
     INFOPIC = bool(os.environ.get("INFOPIC", "True"))
     LOAD = os.environ.get("LOAD", "").split()
     MONGO_DB_URI = os.environ.get("MONGO_DB_URI", "mongodb+srv://starxrobo:starxrobo@cluster0.efstcnr.mongodb.net/?retryWrites=true&w=majority")
     NO_LOAD = os.environ.get("NO_LOAD", "").split()
     START_IMG = os.environ.get(
-        "START_IMG", "https://graph.org/file/c3cf5ca2ab9a041a22673.jpg"
+        "START_IMG", "https://te.legra.ph/file/612122f0681220f8a49f4.jpg"
     )
     STRICT_GBAN = bool(os.environ.get("STRICT_GBAN", True))
-    SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "DabangTheBrand")
+    SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "raghavsupport")
     TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TEMP_DOWNLOAD_DIRECTORY", "./")
     TOKEN = os.environ.get("TOKEN", None)
-    TIME_API_KEY = os.environ.get("TIME_API_KEY", "G1VE375UCXVX")
+    TIME_API_KEY = os.environ.get("TIME_API_KEY", "MGUSGI8E7QEP")
     WORKERS = int(os.environ.get("WORKERS", 8))
 
     try:
-        OWNER_ID = int(os.environ.get("OWNER_ID", "5999224089"))
+        OWNER_ID = int(os.environ.get("OWNER_ID", "6156380294"))
     except ValueError:
         raise Exception("Your OWNER_ID env variable is not a valid integer.")
 
