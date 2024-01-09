@@ -37,7 +37,7 @@ if ENV:
 
     API_ID = int(os.environ.get("API_ID", "28216960"))
     API_HASH = os.environ.get("API_HASH", "16cd70578949eefbec1655e206f14fcf")
-    CHATBOT_API = os.environ.get("CHATBOT_API", None)
+    CHATBOT_API = os.environ.get("CHATBOT_API", False)
     ALLOW_CHATS = os.environ.get("ALLOW_CHATS", True)
     ALLOW_EXCL = os.environ.get("ALLOW_EXCL", False)
     CASH_API_KEY = os.environ.get("CASH_API_KEY", "D31QL4STIWPSLALL")
@@ -54,7 +54,7 @@ if ENV:
     STRICT_GBAN = bool(os.environ.get("STRICT_GBAN", True))
     SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "raghavsupport")
     TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TEMP_DOWNLOAD_DIRECTORY", "./")
-    TOKEN = os.environ.get("TOKEN", None)
+    TOKEN = os.environ.get("TOKEN", False)
     TIME_API_KEY = os.environ.get("TIME_API_KEY", "MGUSGI8E7QEP")
     WORKERS = int(os.environ.get("WORKERS", 8))
 
