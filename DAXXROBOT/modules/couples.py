@@ -9,7 +9,7 @@ from pyrogram.enums import *
 
 #BOT FILE NAME
 from DAXXROBOT import pbot as app
-from COUPLES.modules.mongo.couples_db import _get_image, get_couple, save_couple
+from DAXXROBOT.modules.mongo.couples_db import _get_image, get_couple, save_couple
 
 def dt():
     now = datetime.now()
