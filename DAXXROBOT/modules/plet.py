@@ -5,9 +5,9 @@ from PIL import Image
 from telegram import Update
 from telegram.ext import CallbackContext, run_async
 
-from IRO import dispatcher
-from IRO.modules.disable import DisableAbleCommandHandler
-from IRO.modules.thonkify_dict import thonkifydict
+from DAXXROBOT import dispatcher
+from DAXXROBOT.modules.disable import DisableAbleCommandHandler
+from DAXXROBOT.modules.thonkify_dict import thonkifydict
 
 
 @run_async
