@@ -1081,7 +1081,7 @@ def main():
                     [
                         InlineKeyboardButton(
                             text="➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ➕",
-                            url="https://t.me/RAGHAV_ROBOTbot?startgroup=true"
+                            url="https://t.me/KENOX_ROBOT?startgroup=true"
                             )
                        ]
                 ]
