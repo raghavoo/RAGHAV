@@ -35,8 +35,8 @@ ENV = bool(os.environ.get("ENV", "True"))
 
 if ENV:
 
-    API_ID = int(os.environ.get("API_ID", "28216960"))
-    API_HASH = os.environ.get("API_HASH", "16cd70578949eefbec1655e206f14fcf")
+    API_ID = int(os.environ.get("API_ID", "17615707"))
+    API_HASH = os.environ.get("API_HASH", "1ec80de7f9a57611702bf5d0112173e6")
     CHATBOT_API = os.environ.get("CHATBOT_API", "6156380294-fallen-ediv00vide")
     ALLOW_CHATS = os.environ.get("ALLOW_CHATS", True)
     ALLOW_EXCL = os.environ.get("ALLOW_EXCL", False)
@@ -59,7 +59,7 @@ if ENV:
     WORKERS = int(os.environ.get("WORKERS", 8))
 
     try:
-        OWNER_ID = int(os.environ.get("OWNER_ID", "6156380294"))
+        OWNER_ID = int(os.environ.get("OWNER_ID", "6325295720"))
     except ValueError:
         raise Exception("Your OWNER_ID env variable is not a valid integer.")
 
